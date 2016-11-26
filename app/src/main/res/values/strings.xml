@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">SurfDev</string>
+
+    <string name="enter_button_text">Войти</string>
+    <string name="enter_text_upper">ВОЙТИ</string>
+    <string name="password_text">Пароль</string>
+    <string name="forget_password_text">Забыли пароль?</string>
+    <string name="skip_login_text">Пропустить</string>
+    <string name="try_again">Попробуйте еще раз!</string>
+    <string name="emailName">Почта</string>
 </resources>
