@@ -6,15 +6,13 @@ import android.graphics.drawable.ColorDrawable;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.Toast;
 
+
 import com.practice.surfdev.R;
-import com.practice.surfdev.utils.ConstantManager;
 
 public class BaseActivity extends AppCompatActivity {
+
     protected ProgressDialog mProgressDialog;
 
-    /**
-     * показать кружок загрузки
-     */
     public void showProgress(){
         if(mProgressDialog==null){
             mProgressDialog=new ProgressDialog(this, R.style.custom_dialog);
